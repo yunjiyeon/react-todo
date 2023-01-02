@@ -8,7 +8,7 @@
 ## 📍 Overview
 
 **React**를 이용한 < To Do List > 웹 사이트를 개발하였습니다. <br>
-**dark/light 모드**로 두가지 테마로 스타일을 구현하였습니다.
+**dark/light 모드**로 만들어 사용자가 테마를 선택할 수 있도록 스타일을 구현하였습니다.
 
 ## 🚀 Skills 
 <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black"> <img src="https://img.shields.io/badge/netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white"> 
