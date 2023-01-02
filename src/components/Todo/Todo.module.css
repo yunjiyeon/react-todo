@@ -32,9 +32,9 @@
   transform: rotate(15deg) scale(1.2);
 }
 .button {
+  font-size: 1rem;
   background-color: transparent;
-  position: relative;
-  top: -0.1rem;
   cursor: pointer;  
   color: #fff;
+  vertical-align: middle;
 }
