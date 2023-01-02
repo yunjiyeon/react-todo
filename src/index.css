@@ -4,8 +4,9 @@
   --color-bg-dark: #dfdfdf;
   --color-grey: #d8d4d4;
   --color-text: #22243b;
-  --color-accent: #fbaf00;
-  --color-scrollbar: #c9c9c9;
+  --color-accent: #1A4D2E;
+  --color-scrollbar: #FAF3E3;
+  --color-body: #DCD7C9;
 }
 
 html.dark {
@@ -13,6 +14,8 @@ html.dark {
   --color-bg-dark: #222831;
   --color-text: #d8d4d4;
   --color-grey: #585a5e;
+  --color-accent: #FF9F29;
+  --color-body: linear-gradient(90deg, rgba(23,26,31,1) 0%, rgba(35,39,46,1) 44%, rgba(43,49,57,1) 100%);;
 }
 * {
   margin: 0;
@@ -32,13 +35,7 @@ body {
   align-items: center;
   font-size: 1.2rem;
   background: rgb(255, 255, 255);
-  background: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(40, 42, 58, 1) 0%,
-    rgba(0, 0, 0, 1) 100%,
-    rgba(49, 52, 4, 1) 100%
-  );
+  background: var(--color-body);
 }
 #root {
   width: 100%;

@@ -24,7 +24,7 @@ const AddTodo = ({ onAdd }) => {
 			<input
 				className={styles.input}
 				type="text"
-				placeholder="할일을 입력해주세요"
+				placeholder="Today is..."
 				value={text}
 				onChange={handleChange} //변경될때마다 handleChange호출
 			/>
