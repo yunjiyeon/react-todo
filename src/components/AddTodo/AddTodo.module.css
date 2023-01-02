@@ -3,10 +3,12 @@
   width: 100%;
   padding: 1.3rem 1rem;
   background-color: var(--color-bg-dark);
-}
+  }
+
 .input {
   flex: 1;
   font-size: 1.4rem;
+  width: 100%;
   border: none;
   outline: none;
   padding: 0.7rem 1rem;
@@ -25,3 +27,4 @@
 .button:hover {
   filter: brightness(110%);
 }
+
